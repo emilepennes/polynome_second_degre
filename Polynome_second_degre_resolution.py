@@ -6,9 +6,26 @@ from math import *
 
 print ("Le but de cet exercice est de définir un programme qui pour toute équation aX^2 + bX + c = 0 nous donne les solutions réelles.")
 
-a= float(input("Soit a = "))
-b= float(input("Soit b = "))
-c= float(input("Soit c = "))
+while True :
+    try:
+        a= float(input("Soit a = "))
+        break
+    except ValueError:
+        print(" a doit être un nombre réel ;)  Try again...")
+
+while True:
+    try:
+        b= float(input("Soit b = "))
+        break
+    except ValueError:
+        print(" b doit être un nombre réel ;)  Try again...")
+
+while True:
+    try:
+        c= float(input("Soit c = "))
+        break
+    except ValueError:
+        print(" c doit être un nombre réel ;)  Try again...")
 
 print ( "Soit l\'équation: ", a, "*X^2 +", b, "*X +", c, "=0")
 
