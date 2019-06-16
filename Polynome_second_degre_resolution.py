@@ -1,6 +1,6 @@
 
 # coding:utf-8
-#Le but de l'exercice est de définir un programme qui pour toute équation aX^2 + bX + c = 0, a,b,c étant réels, nous donne les solutions réelles.
+# Le but de l'exercice est de définir un programme qui pour toute équation aX^2 + bX + c = 0, a,b,c étant réels, nous donne les solutions réelles.
 
 from math import *
 
