@@ -50,4 +50,3 @@ else :
         else : 
             print("Soit l\'équation: 0=0")
             print("cela fait la tête à toto !;)")
-            
